@@ -1,0 +1,311 @@
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>רונאל גלר - יועץ פיננסי</title>
+<meta name="description" content="ליווי פיננסי אישי לבניית ביטחון כלכלי, תקציב והשקעות.">
+
+<link rel="preconnect" href="https://i.postimg.cc">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="https://i.postimg.cc/W3wpnXtT/restaurant-image.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="https://i.postimg.cc/xTZJQKF0/full-business-logo-in-green-with-profession.png" fetchpriority="high">
+
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700;900&display=swap" rel="stylesheet"></noscript>
+
+<style>
+:root{--green1:#6f9b73;--green2:#3e8058;--accent-white:#ffffff;--accent-black:#000000;--card-bg:#ffffff;--muted:rgba(0,0,0,0.7);--page-max:1100px;--radius:14px;--shadow:0 12px 40px rgba(0,0,0,0.25);--btn-shadow:0 8px 20px rgba(0,0,0,0.25);--access-widget-blue:#005ce6;--access-widget-bg:#ffffff;--access-widget-text:#000000}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{font-family:'Heebo',sans-serif;background:var(--green1);color:var(--accent-white);scroll-behavior:smooth;scroll-padding-top:50px;overflow-x:hidden;font-size:100%}
+body{margin:0;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.3) var(--green1)}
+input,button,select,textarea{font-family:'Heebo',sans-serif}
+a{color:inherit;text-decoration:none;cursor:pointer}
+button:focus,button:active,input:focus,select:focus{outline:none}
+.container{max-width:var(--page-max);margin:0 auto;padding:0}
+body::-webkit-scrollbar{width:8px}body::-webkit-scrollbar-track{background:var(--green1)}body::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.3);border-radius:4px;border:2px solid var(--green1)}
+
+/* CRITICAL CSS ABOVE FOLD */
+header.site-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:0.25rem 0;background:var(--green1);position:relative;z-index:1000}
+.logo{display:flex;align-items:center;gap:0.75rem}
+.logo .mark{width:190px;height:auto;display:flex;align-items:center;justify-content:center}
+.logo .mark img{width:100%;height:auto;object-fit:contain;display:block}
+nav.top-nav{display:flex;gap:0.75rem;align-items:center}
+nav.top-nav a{padding:0.5rem 0.75rem;border-radius:0.5rem;font-weight:700;color:var(--accent-white);opacity:0.95;font-size:1rem}
+nav.top-nav a:hover{opacity:1;background:rgba(255,255,255,0.1)}
+.cta-top{background:#ffffff;color:#000000;border:none;padding:0.75rem 1.125rem;border-radius:0.75rem;font-weight:900;cursor:pointer;box-shadow:var(--btn-shadow);font-size:1rem}
+.hero{display:grid;grid-template-columns:1fr 500px;gap:1.75rem;align-items:center;margin-top:1.25rem}
+.hero-left{padding:0.5rem 0}
+.hero-title{margin:0.375rem 0 0.625rem;font-size:2.125rem;line-height:1.1;font-weight:900;color:var(--accent-white);text-shadow:0 0.5rem 1.875rem rgba(0,0,0,0.25)}
+.hero-sub{color:var(--accent-white);font-weight:700;margin-bottom:1rem;font-size:1.25rem}
+p.lead{color:var(--accent-white);font-weight:600;margin:0 0 1.125rem;max-width:720px;line-height:1.5;font-size:1.125rem}
+.btn-primary{background:var(--green2);color:var(--accent-white);border:none;padding:0.875rem 1.25rem;border-radius:0.75rem;font-weight:900;cursor:pointer;box-shadow:var(--btn-shadow);font-size:1rem}
+.signup-card{background:var(--card-bg);color:var(--accent-black);border-radius:1rem;padding:1.25rem;margin-top:1.125rem;max-width:420px;width:100%;box-shadow:0 1.125rem 3.75rem rgba(0,0,0,0.25)}
+.signup-card h3{margin:0 0 0.75rem;font-size:1.25rem;font-weight:900}
+.signup-card p{margin:0 0 0.875rem;font-size:0.875rem;font-weight:600;color:var(--muted)}
+.form-group{display:flex;flex-direction:column;gap:0.875rem}
+input,select{padding:0.75rem;border-radius:0.5rem;border:1px solid #ccc;font-weight:700;text-align:center;font-size:0.875rem}
+
+/* 2. LAZY RENDER UTILITY CLASS (This makes the bottom load only when scrolling) */
+.lazy-render {
+    content-visibility: auto;
+    contain-intrinsic-size: 1000px; /* Estimates height to prevent scrollbar jumping */
+}
+
+.card-form input,.card-form select{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.3);color:#ffffff;padding:0.75rem 0.875rem;border-radius:0.625rem;font-weight:700;font-size:0.9375rem;outline:none;text-align:right}
+.card-form select option{background:#fff;color:#000}
+.benefits{margin-top:2.5rem;display:flex;flex-direction:column;gap:1.125rem;align-items:center;}
+.benefits .title{font-size:1.75rem;font-weight:900;color:var(--accent-white);text-align:center}
+.benefits-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;width:100%;max-width:980px}
+.benefit{background:var(--card-bg);border-radius:0.75rem;padding:1rem;box-shadow:0 0.75rem 1.875rem rgba(0,0,0,0.12);color:var(--accent-black);display:flex;gap:0.75rem;align-items:flex-start}
+.benefit .icon{width:2.875rem;height:2.875rem;border-radius:0.625rem;background:rgba(62,128,88,0.08);display:flex;align-items:center;justify-content:center;font-size:1.25rem;flex-shrink:0}
+.benefit h4{margin:0;font-weight:900;font-size:1rem}
+.benefit p{margin:0.375rem 0 0;font-weight:600;color:#245744;font-size:0.875rem}
+.faq{margin-top:2.25rem;max-width:980px;width:100%;margin-left:1.25rem;}
+.faq h3{color:var(--accent-white);font-weight:900;font-size:1.5rem;margin:0 0 0.625rem}
+.qa{background:var(--card-bg);border-radius:0.75rem;margin-bottom:0.75rem;overflow:hidden;box-shadow:0 0.75rem 1.875rem rgba(0,0,0,0.08)}
+.qa button{width:100%;background:transparent;border:none;padding:0.875rem 1rem;text-align:right;font-weight:700;font-size:0.9375rem;cursor:pointer;color:var(--accent-black);display:flex;justify-content:space-between;align-items:center;transition:all .3s ease}
+.qa button span{display:inline-block;transition:transform .3s ease}
+.qa.open button span{transform:rotate(180deg)}
+.qa .answer{padding:0 1rem;max-height:0;overflow:hidden;transition:max-height .36s ease,padding .28s}
+.qa.open .answer{max-height:25rem;padding:0.75rem 1rem 1.125rem;font-size:0.875rem;color:var(--muted);font-weight:600}
+.about-me{display:flex;gap:2.5rem;align-items:center;justify-content:space-between;margin-top:3.75rem;background:#fff;padding:2.5rem;border-radius:1rem;border:4px solid var(--green2);box-shadow:0 0.75rem 2.5rem rgba(0,128,88,0.2);}
+.about-me h2{font-size:1.75rem;font-weight:900;color:var(--green2);margin-bottom:1rem}
+.about-me p{color:#333;font-weight:600;font-size:1rem;line-height:1.6;margin-bottom:0.75rem}
+.about-me img{width:100%;height:auto;display:block;object-fit:cover;border-radius:0.75rem}
+.bottom-section{display:flex;align-items:center;justify-content:space-between;gap:2.5rem;margin-top:3.75rem;flex-wrap:nowrap;}
+.bottom-left{flex:1;display:flex;flex-direction:column;gap:1.125rem;align-items:flex-end}
+.bottom-left .eyebrow{font-weight:900;font-size:2rem;color:#fff;text-align:right;line-height:1.2;text-shadow:0 0.625rem 1.875rem rgba(0,0,0,0.3)}
+.bottom-left p.lead-light{margin:0;color:rgba(255,255,255,0.85);font-weight:600;text-align:right;max-width:720px;font-size:1rem}
+.card-form{width:100%;max-width:580px;background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.02));border-radius:0.875rem;padding:1.125rem;box-shadow:0 1.125rem 3.75rem rgba(0,0,0,0.18);border:1px solid rgba(255,255,255,0.06);display:flex;flex-direction:column;gap:0.75rem}
+.card-form label{font-size:0.875rem;font-weight:700;color:rgba(255,255,255,0.9);text-align:right}
+.consent-row{display:flex;gap:0.625rem;align-items:center;color:rgba(255,255,255,0.9);font-weight:700;font-size:0.8125rem;text-align:right}
+.consent-row input[type="checkbox"]{width:1.125rem;height:1.125rem;accent-color:var(--green2)}
+.cta-white{display:block;width:100%;padding:1rem;border-radius:0.75rem;background:#fff;color:#000;font-weight:900;font-size:1rem;border:none;cursor:pointer;box-shadow:0 0.5rem 1.75rem rgba(0,0,0,0.18);transition:all .2s ease-in-out}
+.cta-white:hover{background:#f3f3f3;transform:translateY(-2px)}
+.small-note{font-size:0.75rem;color:rgba(255,255,255,0.7);text-align:right}
+.bottom-right{flex:1;display:flex;align-items:center;justify-content:center}
+.portrait-card{width:100%;max-width:480px;border-radius:1rem;overflow:hidden;border:0.375rem solid rgba(255,255,255,0.06);box-shadow:0 1.875rem 5.625rem rgba(0,0,0,0.5)}
+.portrait-card img{width:100%;height:auto;display:block;object-fit:cover;border-radius:0.75rem}
+.menu-toggle{display:none;background:none;border:none;font-size:1.75rem;color:#fff;cursor:pointer}
+#accessibility-trigger{position:fixed;bottom:1.875rem;right:1.875rem;width:3.75rem;height:3.75rem;background-color:var(--access-widget-blue);color:var(--access-widget-bg);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 0.25rem 0.75rem rgba(0,0,0,0.2);z-index:99999;transition:transform .2s ease,box-shadow .2s ease;border:0.25rem solid var(--accent-white)}
+#accessibility-trigger:hover{transform:scale(1.1) rotate(5deg);box-shadow:0 0.375rem 1rem rgba(0,0,0,0.3)}
+#accessibility-trigger svg{width:2rem;height:2rem;fill:var(--access-widget-bg)}
+#accessibility-menu{position:fixed;bottom:6.25rem;right:1.875rem;width:18.75rem;background:var(--access-widget-bg);border-radius:0.75rem;box-shadow:0 0.5rem 1.875rem rgba(0,0,0,0.2);z-index:99998;direction:rtl;text-align:right;border:1px solid #ddd;color:var(--accent-black);opacity:0;visibility:hidden;transform:translateY(0.9375rem);transition:opacity .25s ease,visibility .25s ease,transform .25s ease;pointer-events:none}
+#accessibility-menu.open{opacity:1;visibility:visible;transform:translateY(0);pointer-events:auto}
+#accessibility-menu .access-header{display:flex;justify-content:space-between;align-items:center;padding:0.75rem 1rem;border-bottom:1px solid #eee}
+#accessibility-menu h3{margin:0;font-size:1.125rem;font-weight:900;color:var(--accent-black)}
+#accessibility-close{background:transparent;border:none;font-size:1.75rem;font-weight:300;line-height:1;padding:0 0.25rem;cursor:pointer;color:#888}
+#accessibility-close:hover{color:#000}
+#accessibility-menu .access-body{display:flex;flex-direction:column;gap:0.5rem;padding:1rem}
+#accessibility-menu .access-body button{width:100%;padding:0.75rem 0.875rem;font-size:1rem;font-weight:700;text-align:right;background:#f4f4f4;border:1px solid #ddd;border-radius:0.5rem;cursor:pointer;color:var(--accent-black);transition:background .2s ease,border-color .2s ease;display:flex;justify-content:space-between;align-items:center}
+#accessibility-menu .access-body button:hover{background:#e9e9e9;border-color:#ccc}
+#accessibility-menu .access-body button#access-reset{background:var(--access-widget-blue);color:#fff;border-color:var(--access-widget-blue);font-weight:900}
+#accessibility-menu .access-body button#access-reset:hover{background:#004ab3}
+html.access-grayscale{filter:grayscale(100%)}
+html.access-high-contrast{filter:contrast(175%)}
+html.access-negative-contrast{filter:invert(100%) hue-rotate(180deg)}
+html.access-links-underline a{text-decoration:underline !important}
+html.access-readable-font body,html.access-readable-font h1,html.access-readable-font h2,html.access-readable-font h3,html.access-readable-font h4,html.access-readable-font p,html.access-readable-font a,html.access-readable-font span,html.access-readable-font li,html.access-readable-font button,html.access-readable-font input,html.access-readable-font label,html.access-readable-font select,html.access-readable-font div{font-family:Arial,sans-serif !important;letter-spacing:0.03125rem}
+@media(max-width:767px){
+.container{padding:0 0.75rem}html,body{overflow-x:hidden}.menu-toggle{display:block;order:-2}.logo{order:-1;flex-grow:1;display:flex;justify-content:center}.cta-top{order:0;font-size:0.9375rem;padding:0.625rem 1rem}
+nav.top-nav{flex-direction:column;position:absolute;top:100%;left:0;right:0;width:100%;padding:0;background:#fff;border-radius:0 0 0.75rem 0.75rem;box-shadow:0 0.375rem 1.25rem rgba(0,0,0,.2);max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;z-index:999}
+nav.top-nav.open{max-height:31.25rem;padding:1rem 0.75rem}
+nav.top-nav a{width:100%;text-align:right;color:#000;padding:0.75rem 0;font-weight:700;font-size:1rem;border-bottom:1px solid rgba(0,0,0,0.08)}
+nav.top-nav a:last-child{border-bottom:none}
+nav.top-nav a:active,nav.top-nav a:focus,nav.top-nav a:focus-visible{color:#000!important;background:transparent!important;outline:none!important}
+.hero{grid-template-columns:1fr;gap:1.25rem;text-align:center;margin-top:0}.hero-left{padding:0}.hero-title{font-size:1.75rem}.hero-sub{font-size:1.125rem}p.lead{font-size:0.9375rem;max-width:100%}
+.signup-card{max-width:100%;margin-top:1.5rem;padding:1rem}.hero-image{max-width:100%}.hero-image img{border-radius:0.75rem;width:100%}.benefits-grid{grid-template-columns:1fr;gap:0.875rem}.benefit{padding:0.875rem}.benefit .icon{width:2.5rem;height:2.5rem;font-size:1.125rem}
+.benefit h4{font-size:0.9375rem}.benefit p{font-size:0.8125rem}.faq{margin-left:0;padding:0 0.75rem;max-width:100%}.qa button{font-size:0.875rem;padding:0.75rem 0.875rem}.qa .answer{font-size:0.8125rem;padding:0.625rem 0.875rem 1rem}
+.about-me{flex-direction:column;text-align:center;padding:1.5rem;gap:1.25rem}.about-me>div:first-child{width:100%;max-width:20rem;margin:0 auto}.about-me img{width:100%;max-width:100%;height:auto;border-radius:0.75rem;display:block}
+.bottom-section{flex-direction:column;gap:1.875rem}.bottom-left{align-items:center;text-align:center}.bottom-left .eyebrow{font-size:1.625rem}.bottom-left p.lead-light{font-size:0.9375rem;max-width:100%}
+.card-form{max-width:100%;padding:1rem}.portrait-card{max-width:90%}#accessibility-trigger{bottom:1.25rem;right:1.25rem;width:3.125rem;height:3.125rem}#accessibility-menu{bottom:5rem;right:1.25rem;width:16.25rem}}
+@media (max-width:1024px){
+.container{padding:0 1.25rem}.hero{grid-template-columns:1fr;gap:1.875rem;text-align:center;justify-items:center}.hero-left{padding:0;text-align:center}.hero-title{font-size:2rem}.hero-sub{font-size:1.25rem}p.lead{font-size:1rem;max-width:100%}
+.hero-image{max-width:43.75rem;margin:0 auto}.hero-image img{width:100%;border-radius:0.75rem}.signup-card{max-width:31.25rem;margin:1.25rem auto 0;padding:1.125rem}.benefits{margin-top:3.125rem}.benefits .title{font-size:1.625rem}
+.benefits-grid{grid-template-columns:repeat(2,1fr);gap:1.125rem;max-width:100%}.benefit{padding:1rem}.faq{margin-top:2.5rem;max-width:100%;margin-left:0;padding:0 1.25rem}.faq h3{font-size:1.375rem}
+.qa button{font-size:0.9375rem;padding:0.875rem 1rem}.qa .answer{font-size:0.875rem}.about-me{flex-direction:column;gap:1.875rem;padding:1.875rem;text-align:center}.about-me>div:first-child{width:100%;max-width:31.25rem;margin:0 auto}
+.about-me img{width:100%;max-width:31.25rem;margin:0 auto}.about-me h2{font-size:1.625rem;text-align:center}.about-me p{font-size:0.9375rem}
+.bottom-section{flex-direction:column;gap:2.5rem;margin-top:3.125rem}.bottom-left{align-items:center;text-align:center}.bottom-left .eyebrow{font-size:1.75rem;text-align:center}.bottom-left p.lead-light{text-align:center;max-width:100%;font-size:0.9375rem}
+.card-form{max-width:100%;padding:1.125rem}.bottom-right{justify-content:center}.portrait-card{max-width:37.5rem;margin:0 auto}}
+</style>
+</head>
+<body>
+<div class="container">
+<header class="site-header">
+<div class="logo"><div class="mark"><img src="https://i.postimg.cc/xTZJQKF0/full-business-logo-in-green-with-profession.png" alt="רונאל גלר - לוגו עסקי" width="190" height="60" fetchpriority="high"></div></div>
+<button class="menu-toggle" aria-label="פתח תפריט">☰</button>
+<nav class="top-nav">
+<a href="#benefits">מה התוכנית</a>
+<a href="#faq">שאלות נפוצות</a>
+<a href="#about-me">קצת עליי</a>
+</nav>
+<button class="cta-top" data-target="#bottom-section">אני רוצה >></button>
+</header>
+
+<main class="hero">
+<div class="hero-left">
+<h1 class="hero-title">ליווי פיננסי אישי שייתן לכם ביטחון כלכלי אמיתי</h1>
+<div class="hero-sub">איך לגרום לכסף שלכם לעבוד בחוכמה — בלי לחץ ובצעדיים ברורים</div>
+<p class="lead">תוכנית פרקטית, ממוקדת ותכלסית. ליווי צמוד בבניית תקציב, חסכון, והשקעות — באופן שמתאים בדיוק אליכם.</p>
+<div class="signup-card">
+<h3>השאר פרטים — נקבע שיחת היכרות</h3>
+<p>השאירו לי פרטים כאן ואחזור אליכם לבדוק התאמה שלכם לתוכנית</p>
+<form id="signupForm">
+<div class="form-group">
+<input type="text" name="name" placeholder="שם מלא" required oninvalid="this.setCustomValidity('נא למלא שדה זה')" oninput="this.setCustomValidity('')">
+<input type="tel" name="phone" placeholder="מספר טלפון" required oninvalid="this.setCustomValidity('נא למלא שדה זה')" oninput="this.setCustomValidity('')">
+<input type="email" name="email" placeholder="אימייל" required oninvalid="this.setCustomValidity('נא למלא שדה זה')" oninput="this.setCustomValidity('')">
+</div>
+<div style="margin-top:1.125rem;display:flex;justify-content:center;">
+<button class="btn-primary" type="submit" style="width:60%;padding:0.875rem 0;">קבע שיחת היכרות</button>
+</div>
+</form>
+<p id="formMessage" style="text-align:center;margin-top:0.625rem;"></p>
+</div>
+</div>
+<aside class="hero-image" style="max-width:31.25rem;">
+<img src="https://i.postimg.cc/W3wpnXtT/restaurant-image.jpg" alt="תמונת מדריך" style="width:100%;height:auto;border-radius:0.75rem;" width="500" height="500" fetchpriority="high">
+</aside>
+</main>
+
+<section class="benefits lazy-render" id="benefits">
+<div class="title">מה תקבלו בתהליך הליווי?</div>
+<div class="benefits-grid">
+<div class="benefit"><div class="icon">💡</div><div><h4>תוכנית אישית מפורטת</h4><p>מפת דרכים כלכלית מותאמת למטרות ולמצב האישי שלכם.</p></div></div>
+<div class="benefit"><div class="icon">📈</div><div><h4>תיק השקעות פרקטי</h4><p>בניית תיק השקעות מותאם, פשוט ותכליתי — ללא סיבוכים.</p></div></div>
+<div class="benefit"><div class="icon">🕒</div><div><h4>ליווי בביצוע</h4><p>תמיכה בשלבי הפתיחה והמעקב כדי שתפעלו בבטחה לאורך זמן.</p></div></div>
+<div class="benefit"><div class="icon">🔒</div><div><h4>שקיפות מלאה</h4><p>המלצות ברורות, פשוטות ומובנות — בלי אינטרסים מוסתרים.</p></div></div>
+</div>
+</section>
+
+<section class="faq lazy-render" id="faq">
+<h3>שאלות נפוצות</h3>
+<div class="qa" id="q1">
+<button onclick="toggleQA('q1')">האם אני צריך תואר פיננסי כדי לדעת לנהל את הכסף שלי? <span>▼</span></button>
+<div class="answer">ממש לא! גם מי שלמד כלכלה לא תמיד יודע להשקיע נכון או להבין איך שוק ההון פועל. בתוכנית הליווי שלי תקבלו את כל הכלים להבין איך כסף עובד, איך להתחיל להשקיע ובעיקר – איך ליישם את זה בצורה פרקטית בחיים שלכם!</div>
+</div>
+<div class="qa" id="q2">
+<button onclick="toggleQA('q2')">האם אני חייב לחסוך בצורה קיצונית כדי להצליח בתוכנית? <span>▼</span></button>
+<div class="answer">ממש לא! אני מאמין שכסף נועד לשימוש חכם ומאוזן, ולא לוותר על ההנאות שבחיים. בתוכנית תלמדו איך ליהנות מהחיים בצורה חכמה ועדיין לשמור על תקציב להשקעות, כך שתוכלו גם לחיות היום וגם להשקיע לעתיד.</div>
+</div>
+<div class="qa" id="q3">
+<button onclick="toggleQA('q3')">אני לא אוהב להתעסק בפיננסים. מה יהיה שונה פה? <span>▼</span></button>
+<div class="answer">בתוכנית הליווי אנחנו מבינים שהרבה אנשים נמנעים מניהול כספים בגלל מחסומים רגשיים ופסיכולוגיים. תלמדו איך להפוך את ניהול הכסף לפשוט, נגיש, ומובנה כך שזה לא ירגיש כמו עבודה אלא כלי לחיים טובים יותר.</div>
+</div>
+<div class="qa" id="q4">
+<button onclick="toggleQA('q4')">האם אפשר להצטרף לתוכנית יחד עם בן/בת הזוג? <span>▼</span></button>
+<div class="answer">בהחלט! כשבונים עתיד כלכלי משותף, חשוב ששני בני הזוג יהיו מעורבים. זו הזדמנות ללמוד יחד איך לקבל החלטות פיננסיות חכמות, עם אפשרות להנחה מיוחדת למי שמצטרף בזוג.</div>
+</div>
+<div class="qa" id="q5">
+<button onclick="toggleQA('q5')">אני סטודנט עם משכורת נמוכה, האם כדאי לי לחכות עד שאתחיל לעבוד במשרה מלאה? <span>▼</span></button>
+<div class="answer">לא, ממש לא! ככל שתתחילו ללמוד על כסף מוקדם יותר, כך תצברו יתרון. אפשר להתחיל להשקיע גם עם סכומים קטנים ולהרוויח ניסיון כבר עכשיו.</div>
+</div>
+<div class="qa" id="q6">
+<button onclick="toggleQA('q6')">המשכורת שלי גבוהה מ-20,000 ₪ בחודש, האם התוכנית מתאימה לי? <span>▼</span></button>
+<div class="answer">בהחלט! גם אם אתם מרוויחים טוב, הרבה אנשים לא יודעים לנהל נכון את ההכנסות שלהם. בתוכנית תלמדו איך למנף את המשכורת להשקעות חכמות ולהשגת מטרות כלכליות לטווח הארוך.</div>
+</div>
+</section>
+
+<section class="about-me lazy-render" id="about-me">
+<div>
+<img src="https://i.postimg.cc/nLMJJn6X/image.jpg" alt="רונאל גלר" loading="lazy" decoding="async" width="480" height="640">
+</div>
+<div>
+<h2>קצת עליי</h2>
+<p>אני רונאל גלר, יועץ פיננסי שמאמין שידע פיננסי שייך לכולם – לא רק למי שמבין במספרים.</p>
+<p>מגיל צעיר הבעתי עניין בכסף ובהשקעות, לאחר תקופה של למידה החלטתי להתנסות בעולם האמיתי, כך לאט לאט הגעתי להון עצמי של מעל 6 ספרות כבר בגיל 17.</p>
+<p>כיום אני משתמש בניסיון הזה כדי לעזור לאחרים להבין את הכסף שלהם ולבנות בסיס כלכלי חזק ובטוח.</p>
+<p>בשלב מסוים החלטתי להרים את הכפפה ולהתחיל ללמוד ייעוץ פיננסי במכללת UNI, מתוך רצון אמיתי לליווי אישי שמוביל לשינוי — הן במספרים והן בגישה הכלכלית.</p>
+</div>
+</section>
+
+<section class="bottom-section lazy-render" id="bottom-section">
+<div class="bottom-left">
+<div class="eyebrow">שימו לב — רק 5 לקוחות מתקבלים בשבוע!</div>
+<p class="lead-light">אם אף אחד לא לימד אותך מה עושים עם כסף — זה הרגע לשנות את זה. השאר פרטים ואחזור אליך לבדוק התאמה לתוכנית הליווי ותוכנית התחלה חינמית.</p>
+<form class="card-form" id="bottomForm">
+<label>שם מלא</label>
+<input type="text" name="name" required oninvalid="this.setCustomValidity('נא למלא שדה זה')" oninput="this.setCustomValidity('')">
+<label>אימייל</label>
+<input type="email" name="email" required oninvalid="this.setCustomValidity('נא למלא שדה זה')" oninput="this.setCustomValidity('')">
+<label>טלפון</label>
+<input type="tel" name="phone" required oninvalid="this.setCustomValidity('נא למלא שדה זה')" oninput="this.setCustomValidity('')">
+<label>כמה אתה חוסך בחודש?</label>
+<select name="saving" required oninvalid="this.setCustomValidity('נא למלא שדה זה')" oninput="this.setCustomValidity('')">
+<option value="" disabled selected style="color:#000;">בחר/י</option>
+<option value="none">לא חוסך כלל</option>
+<option value="500-2500">500-2500 ש"ח</option>
+<option value="2500+">מעל 2500 ש"ח</option>
+</select>
+<label class="consent-row"><input type="checkbox" name="consent" required oninvalid="this.setCustomValidity('חובה לאשר את התנאים')" oninput="this.setCustomValidity('')"> אני מאשר/ת קבלת תוכן איכותי וערך מרונאל גלר</label>
+<button class="cta-white" type="submit">ספר לי עוד ››</button>
+<div class="small-note">הפרטים יישארו חסויים ולא יועברו לצד שלישי.</div>
+</form>
+<p id="bottomFormMessage" class="small-note" style="margin-top:0.625rem;"></p>
+</div>
+<div class="bottom-right">
+<div class="portrait-card">
+<img src="https://i.postimg.cc/C5pkSBBq/image.jpg" alt="רונאל גלר" loading="lazy" decoding="async" width="480" height="640">
+</div>
+</div>
+</section>
+</div>
+
+<div id="accessibility-trigger" aria-label="תפריט נגישות" role="button" tabindex="0">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 7h-6v13h-2v-6h-2v6H9V9H3V7h18v2z"></path></svg>
+</div>
+<div id="accessibility-menu" role="dialog" aria-modal="true" aria-labelledby="accessibility-title">
+<div class="access-header">
+<h3 id="accessibility-title">תפריט נגישות</h3>
+<button id="accessibility-close" aria-label="סגור תפריט נגישות">&times;</button>
+</div>
+<div class="access-body">
+<button id="access-text-increase">הגדל טקסט ⬆️</button>
+<button id="access-text-decrease">הקטן טקסט ⬇️</button>
+<button id="access-grayscale">גווני אפור ⚫️⚪️</button>
+<button id="access-high-contrast">ניגודיות גבוהה 🔆</button>
+<button id="access-negative-contrast">ניגודיות הפוכה 🔄</button>
+<button id="access-links-underline">הדגשת קישורים 🔗</button>
+<button id="access-readable-font">פונט קריא 🅰️</button>
+<button id="access-reset">אפס הגדרות 🧹</button>
+</div>
+</div>
+<footer class="lazy-render" style="margin-top:3.75rem;background:#f9f9f9;padding:1.5625rem 0;text-align:center;font-family:'Heebo',sans-serif;border-top:1px solid #ddd;">
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1.5625rem;margin-bottom:0.625rem">
+<a href="https://docs.google.com/document/d/1fGaZsRLX0WkhHhA0GjaSz7E6hr_RDdzBvYBj_RR3YBo/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style="color:#00408a;text-decoration:none;font-weight:600">תנאי שימוש</a>
+<a href="https://docs.google.com/document/d/1wfarKdnoRdxxhQIdub7SmIORhGSw3gsKcnMiWW4afMk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style="color:#00408a;text-decoration:none;font-weight:600">מדיניות פרטיות</a>
+<a href="https://docs.google.com/document/d/1Uk9WTqLRP4fA7gH6vHawESZ_dkCFm8wtJoSxO5LpWnE/edit?usp=drive_link" target="_blank" rel="noopener noreferrer" style="color:#00408a;text-decoration:none;font-weight:600">הצהרת נגישות</a>
+</div>
+<div style="font-size:0.875rem;color:#666">© כל הזכויות שמורות לרונאל גלר - יועץ פיננסי</div>
+</footer>
+<script>
+function toggleQA(e){const t=document.getElementById(e);if(t){const n=t.classList.contains("open");document.querySelectorAll(".qa").forEach(e=>{e.classList.remove("open")}),n||t.classList.add("open")}}
+
+// Defer heavy logic until after initial paint
+window.addEventListener('load', function() {
+    // 1. Navigation & Scroll logic
+    const e=e=>{const t=document.querySelector(e);if(t){const e=t.getBoundingClientRect().top+window.scrollY-80;window.scrollTo({top:e,behavior:"smooth"})}};
+    document.querySelectorAll("nav.top-nav a").forEach(t=>{t.addEventListener("click",n=>{n.preventDefault(),e(t.getAttribute("href")),document.querySelector("nav.top-nav").classList.remove("open")})});
+    const t=document.querySelector(".cta-top");t&&t.addEventListener("click",t=>{t.preventDefault();const n=document.querySelector(".cta-top").getAttribute("data-target");e(n)});
+    const n=document.querySelector(".menu-toggle"),o=document.querySelector("nav.top-nav");n.addEventListener("click",()=>o.classList.toggle("open"));
+
+    // 2. Forms logic (Deferred)
+    const s=document.getElementById('signupForm'),f=document.getElementById('formMessage');
+    if(s) s.addEventListener('submit',async e=>{e.preventDefault();const t=new FormData(s);t.append('access_key','c4e60218-6266-4fa8-a514-9cce087918d3');try{const n=await fetch('https://api.web3forms.com/submit',{method:'POST',body:t}),o=await n.json();o.success?(f.textContent="תודה! הפנייה נשלחה בהצלחה.",s.reset()):f.textContent="אירעה שגיאה. נסו שנית."}catch(e){f.textContent="אירעה שגיאה. נסו שנית.",console.error(e)}});
+
+    const b=document.getElementById("bottomForm"),m=document.getElementById("bottomFormMessage");
+    if(b) b.addEventListener("submit",async e=>{e.preventDefault();const t=new FormData(b);t.append("access_key","c4e60218-6266-4fa8-a514-9cce087918d3");try{const n=await fetch("https://api.web3forms.com/submit",{method:"POST",body:t}),o=await n.json();o.success?(m.textContent="תודה! הפנייה נשלחה בהצלחה.",b.reset()):m.textContent="אירעה שגיאה. נסו שנית."}catch(e){m.textContent="אירעה שגיאה. נסו שנית.",console.error(e)}});
+
+    // 3. Accessibility Widget (Deferred slightly to prioritize main thread)
+    setTimeout(() => {
+        (function(){const e=document.getElementById("accessibility-trigger"),t=document.getElementById("accessibility-menu"),n=document.getElementById("accessibility-close"),o=document.documentElement,c={"access-text-increase":()=>r(1),"access-text-decrease":()=>r(-1),"access-grayscale":()=>o.classList.toggle("access-grayscale"),"access-high-contrast":()=>o.classList.toggle("access-high-contrast"),"access-negative-contrast":()=>o.classList.toggle("access-negative-contrast"),"access-links-underline":()=>o.classList.toggle("access-links-underline"),"access-readable-font":()=>o.classList.toggle("access-readable-font"),"access-reset":a};function l(){const n=t.classList.toggle("open");n?(t.setAttribute("aria-hidden","false"),e.setAttribute("aria-expanded","true"),t.querySelector(".access-body button:first-child")?.focus()):(t.setAttribute("aria-hidden","true"),e.setAttribute("aria-expanded","false"),e.focus())}let i=100;function r(e){i+=10*e,i<80&&(i=80),i>150&&(i=150),o.style.fontSize=`${i}%`}function a(){o.classList.remove("access-grayscale","access-high-contrast","access-negative-contrast","access-links-underline","access-readable-font"),i=100,o.style.fontSize="100%"}
+        if(e) {
+            e.addEventListener("click",l),e.addEventListener("keydown",e=>{"Enter"!==e.key&&" "!==e.key||(e.preventDefault(),l())}),n.addEventListener("click",l),document.addEventListener("keydown",e=>{"Escape"===e.key&&t.classList.contains("open")&&l()}),document.addEventListener("click",n=>{!t.contains(n.target)&&!e.contains(n.target)&&t.classList.contains("open")&&l()}),Object.keys(c).forEach(e=>{const t=document.getElementById(e);t&&t.addEventListener("click",c[e])});t.setAttribute("aria-hidden","true"),e.setAttribute("aria-expanded","false")
+        }
+        })()
+    }, 50);
+});
+</script>
+</body>
+</html>
